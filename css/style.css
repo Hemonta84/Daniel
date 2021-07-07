@@ -1,0 +1,269 @@
+body,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{text-decoration: none;}
+h1,h2,h3,h4,h5,h6,a,span,p,button,input{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+/******** header section css start from here **********/
+
+#header{width: 100%;height: 100vh;}
+.headerdata{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.headerleft{
+    background: #015761;
+    flex-basis: 50%;
+}
+.headerright{
+    background: url("../image/banner1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    flex-basis: 50%;
+}
+.headertop {
+    margin: 20px;
+}
+
+.headertop h3 {
+    color: #f7dc4f;
+    margin-bottom: 10px;
+    font-size: 23px;
+}
+.headertop ul {
+    list-style: none;
+}
+.headertop ul li {
+    color: #9cbec2;
+    display: inline-block;
+    margin-right: 12px;
+    font-size: 14px;
+    transition: .4s;
+}
+.headertop ul li:hover{
+    color: #61e928;
+}
+.headermiddle {
+    margin-top: 130px !important;
+    width: 150px;
+    margin: 0 auto;
+}
+.headermiddle h3 {
+    color: #f7dc4f;
+    font-size: 26px;
+    margin-bottom: 7px;
+}
+.headermiddle span {
+    color: #ffffff;
+    font-size: 55px;
+}
+.headermiddle p {
+    font-size: 14px;
+    color: #d5e3e5;
+}
+.headersocial {
+    position: fixed;
+    top: 25%;
+    right: 0;
+}
+.headersocial ul {
+    list-style: none;
+    background: #e7d15d;
+    padding: 5px;
+    border-radius: 3px;
+    transition: .4s;
+}
+.headersocial ul li {
+    margin: 15px;
+    color: black;
+    font-size: 16px;
+    transition: .4s;
+}
+.headersocial ul:hover {
+    background: #5b9935;
+}
+.headersocial ul li:hover {
+    color: #f3e6e6;
+}
+
+/******** intro section css start from here **********/
+
+#intro{
+    background: #f1f0f0;
+    padding-top: 60px;
+    padding-bottom: 110px;
+    text-align: center;
+}
+.container h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #015761;
+}
+.container p {
+    margin: 0px 264px;
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: #868686;
+    line-height: 20px;
+    word-spacing: .6px;
+}
+.Btn button {
+    padding: 12px 25px;
+    background: #f7dc4e;
+    border: none;
+    color: #276b5e;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: .3s;
+}
+.Btn button:hover {
+    color: white;
+    background: #65494e;
+}
+/******** showrill section css start from here **********/
+section#showrill {
+    padding: 50px 0px;
+}
+
+.sText h2 {
+    text-align: center;
+    font-size: 50px;
+    color: #015761;
+}
+
+/******** slider section css start from here **********/
+#slider img{
+   width: 100%;
+}
+
+/******** photo section css start from here **********/
+
+section#photo {
+    padding: 50px 0px;
+}
+#photo h2 {
+    text-align: center;
+    font-size: 50px;
+    color: #015761;
+    margin-bottom: 25px;
+}
+.photobox img {
+    margin: 15px;
+}
+.photobox {
+    display: flex;
+    justify-content: center;
+}
+
+/******** personal information section css start from here **********/
+
+#personalInfo{ 
+    width: 100%; 
+    height: 90vh;
+}
+.p-info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 100%;
+}
+.p-info .image{
+    background: url("../image/bottom-slide.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    flex-basis: 50%;
+}
+.info{
+    background: #015761;
+    flex-basis: 50%;
+}
+.infoWrapper {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.info.socialicon ul {
+    list-style: none;
+}
+.info .socialicon li {
+    list-style: none;
+}
+.info h2 {
+    font-size: 55px;
+    color: #f7dc4f;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.info h3 {
+    font-size: 22px;
+    color: #e4edee;
+    margin-bottom: 15px;
+}
+
+.infobox h4 {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.infobox p {
+    color: white;
+    font-size: 13px;
+    font-weight: 200;
+    margin-bottom: 1px;
+}
+
+.infobox {
+    margin-bottom: 20px;
+}
+ul.socialicon li {
+    display: inline;
+    margin-right: 15px;
+
+}
+
+ul.socialicon li i{
+    color: white;
+    font-size: 12px;
+    transition: .4s;
+
+}
+ul.socialicon li i:hover{
+    color: #62e42c;
+}
+
+/******** footer section css start from here **********/
+
+.f-1{
+    background: #ffffff;
+    padding: 20px 0px;
+}
+.f-2{
+    background: #f1f1f1c2;
+    padding: 20px 0px;
+}
+.copyright{
+    text-align: center;
+    color: #080707;
+}
+.copyright a{
+    text-decoration: underline;
+     color: #080707;
+}
+
+   
